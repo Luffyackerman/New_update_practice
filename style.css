@@ -1,0 +1,382 @@
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+    .nav-link:hover{
+      color: rgb(22, 76, 255);
+    }
+    .nav-link{
+      color: rgb(131, 126, 126);
+    }
+    .nav-item{
+      margin-left: 20px;
+    }
+    .btn{
+      border-radius: 10px;
+      font-size: 15px;
+    }
+    .form-control{
+      border-radius: 10px;
+      font-size: 15px;
+      border-color: #222222;
+    }
+    h1{
+      font-weight: light;
+      font-style: italic;
+      font-size: 72px;
+      background-image: linear-gradient(45deg, #9191a8, rgb(33, 30, 231));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
+    @media (max-width: 664px) {
+    #cont1 {
+text-align: center;
+    }
+  }
+    h2{
+      font-size: 45px;
+      font-weight: bold;
+      background-image: linear-gradient(70deg, #7979cc, rgb(33, 30, 231));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-background-clip: text;
+      -moz-text-fill-color: transparent;
+    }
+    h3{
+      font-weight: bold;
+      text-align: left;
+      margin-bottom: 3%;
+      font-size: 40px;
+    }
+    h4{
+      margin-top: 3%;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 3%;
+      font-size: 20px;
+    }
+#btn-back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+}
+#btn-back-to-top{
+background-color:rgb(30, 64, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+.navbar-toggler{
+border: none;
+}
+#about{
+margin: 5px 5px 5px 5px;
+}
+#btn1{
+font-weight: normal;
+}
+#btn1:hover{
+  box-shadow:
+    0 0 10px 1px rgb(111, 133, 253),  
+    0 0 20px 2px rgb(182, 194, 250), 
+    0 0 30px 3px rgb(189, 206, 255);
+  }
+#cont1{
+margin-bottom: 20%;
+margin-top: 5%;
+}
+#cont1:before {
+  border-radius: 30% 70% 38% 62% / 66% 51% 49% 34%;
+  content: "";
+  width: 60vmax;
+  height: 60vmax;
+  position: absolute;
+  background: rgba(63, 59, 59, 0.055);
+  left: -20vmin;
+  top: -20vmin;
+  animation: rotate 40s linear forwards infinite;
+  z-index: -1;
+  will-change: border-radius,transform;
+  transform-origin: 55% 55%;
+  pointer-events: none;
+}
+#lad{
+font-weight: bold;
+font-size: 20px;
+text-decoration: none; 
+}
+.con{
+width: 40px;
+}
+.logo{
+width: 40px;
+}
+.arr{
+width: 25px;
+opacity: 80%;
+}
+#pri{
+margin-bottom: 20%;
+}
+#feat{
+margin-bottom: 20%;
+background-color: rgba(187, 183, 178, 0.123);
+border-radius: 10px;
+padding: 3% 3% 3%  3% ;
+}
+#price{
+color: rgb(38, 190, 0);
+}
+#price2{
+color: rgb(240, 21, 21);
+font-size: 30px;
+}
+.me img{
+    width: 100%;
+    height: auto;
+    border-radius: 30% 70% 38% 62% / 66% 51% 49% 34%;  
+    filter: drop-shadow(36px 34px 50px #000);
+}
+.tag{
+font-weight: bold;
+color: rgb(70, 67, 67);
+font-size: 20px;
+background-color: rgb(193, 204, 204);
+border-radius: 10px;
+}
+.try{
+display: flex;
+justify-content: center;
+text-align: center;
+}
+@media (max-width: 668px) {
+    .try {
+text-align: center;
+    }
+    .ladin_footer{
+      text-align: center;
+    }
+    .phone_num{
+      text-align: center;
+    }
+    .email{
+      text-align: center;
+    }
+  }
+.footer{
+    background-color: #d6d6d6;
+    color: #222222;
+    width: 100%;
+    margin: 0%;
+    padding: 3% 15% 0 15%;
+}
+.logo1{
+    width: 40px;
+    margin: 0%;
+}
+h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer_1{
+    text-align: center;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon1:hover{
+  opacity: 80%;
+}
+.phone_num a{
+  text-decoration: none;
+  color: #222222;
+}
+.email a{
+  text-decoration: none;
+  color: #222222;
+}
+.email{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media (min-width: 660px) {
+  #footer_contact{
+    border-right: dotted 1px rgba(0, 0, 0, 0.267);
+  }
+  .social{ display: flex;
+  justify-content: left;
+  align-items: left;
+  }
+  .me img{
+    margin-top: 20%;
+  }
+}
+@media (max-width: 660px) {
+  #footer_contact{
+    border-bottom: dotted 1px rgba(0, 0, 0, 0.267);
+  }
+}
+h4{
+  background-image: linear-gradient(45deg, #9191a8, rgb(33, 30, 231));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.featu img{
+    width: 100%;
+    height: auto;
+    border-radius: 76% 24% 39% 61% / 51% 48% 52% 49%; 
+}
+.thumbnail{
+  overflow: hidden;
+}
+.thumbnail img {
+  transition: transform .5s ease;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.5);
+}
+.col-md-3{
+  margin-bottom: 20px;
+}
+.bg-design{
+  background: linear-gradient(60deg, #8EC5FC,#E0C3FC);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 13vmax;
+  width: 13vmax;
+  animation: rotate 20s linear forwards infinite;
+  margin-left: 10%;
+}
+.bg-design-1{
+  background: linear-gradient(60deg,rgb(208, 240, 250), #acd4fc,#fdcbff);
+  border-radius: 48% 52% 41% 59% / 57% 57% 43% 43%;
+  height: 5vmax;
+  width: 5vmax;
+  float: left;
+  animation: rotate 30s linear forwards infinite;
+  margin-left: 50%;
+}
+.bg-design-2{
+  background: linear-gradient(60deg, #cde7ff,#a4cbff, rgb(103, 210, 253));
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 7vmax;
+  width: 7vmax;
+  margin-left: 50%;
+  margin-top: 10%;
+  z-index: -1;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-3{
+  background: linear-gradient(60deg, #57abff,#a9fffb);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 5vmax;
+  width: 5vmax;
+  float: left;
+  margin-left: 30%;
+  animation: rotate 10s linear forwards infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.bg-design-4{
+  background: linear-gradient(60deg, #886efa,#b0fffb);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 6vmax;
+  width: 6vmax;
+  float: right;
+  margin-left: 10%;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-5{
+  background: linear-gradient(60deg, #7ebeff,#caa9ff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 5vmax;
+  width: 5vmax;
+  float: left;
+  animation: rotate 30s linear forwards infinite;
+  margin-left: 10%;
+}
+.bg-design-6{
+  background: linear-gradient(60deg, #7ebeff,#caa9ff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 5vmax;
+  width: 5vmax;
+  float: left;
+  margin-left: 35%;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-7{
+  background: linear-gradient(60deg, #7ebeff,#caa9ff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 4vmax;
+  width: 4vmax;
+  float: left;
+  margin-left: 45%;
+  margin-top: 20%;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-8{
+  background: linear-gradient(60deg, #debbfc,#7d71e7);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 3vmax;
+  width: 3vmax;
+  float: right;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-9{
+  background: linear-gradient(60deg, #a6d2ff,#caa9ff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 4vmax;
+  width: 4vmax;
+  float: left;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-10{
+  background: linear-gradient(60deg, #a6d2ff,#caa9ff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 2vmax;
+  width: 2vmax;
+  float: left;
+  margin-left: 50%;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-11{
+  background: linear-gradient(60deg, #8dc6ff,#52e9fd);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 2vmax;
+  width: 2vmax;
+  float: left;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-12{
+  background: linear-gradient(60deg, #a8d3fd,#cea4ff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 4vmax;
+  width: 4vmax;
+  float: right;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-13{
+  background: linear-gradient(60deg, #8dc6ff,#529cfd);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 2vmax;
+  width: 2vmax;
+  animation: rotate 30s linear forwards infinite;
+}
+.bg-design-14{
+  background: linear-gradient(60deg, #b0aef7,#a2caff);
+  border-radius: 50% 50% 39% 61% / 51% 59% 41% 49%;
+  height: 4vmax;
+  width: 4vmax;
+  animation: rotate 30s linear forwards infinite;
+}
